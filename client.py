@@ -8,7 +8,7 @@ clientSocket.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
 #########################
 hostIp = ""
 portNumber = 0
-username = ""
+username = input("entrer votre nom d'utilisateur")
 #########################
 
 clientSocket.connect((hostIp, portNumber))
